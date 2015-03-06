@@ -7,7 +7,7 @@ end
 
 gem 'rails', '4.2.0'
 
-
+gem 'bootstrap-sass', '~> 3.3.3'
 
 gem 'sass-rails', '~> 5.0'
 
