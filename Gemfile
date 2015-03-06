@@ -1,10 +1,5 @@
 source 'https://rubygems.org'
 
-group :production do
-	gem 'pg'
-end
-
-
 gem 'rails', '4.2.0'
 
 gem 'bootstrap-sass', '~> 3.3.3'
@@ -18,6 +13,8 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 
 gem 'devise'
+
+gem 'simple_form'
 
 gem 'turbolinks'
 
@@ -37,3 +34,6 @@ group :development, :test do
   gem 'sqlite3'
 end
 
+group :production do
+	gem 'pg'
+end
