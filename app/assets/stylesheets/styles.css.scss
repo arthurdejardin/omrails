@@ -7,6 +7,9 @@ body {
 
 .footer {
 	margin-top: 40px;
+	margin-bottom: 40px;
+	position: absolute;
+	bottom: 0;
 	color: $gray-light;
 	a {
 		color: gray;
@@ -26,4 +29,33 @@ body {
 
 .well {
 	margin-top: 20px;
+}
+
+/* Required for jQUERY mASONRY*/
+
+.box {
+	margin-top: 25px;
+	margin-right: 10px;
+	padding: 5px;
+	font-size: 11px;
+	line-height: 1.4em;
+	float: left;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px #444;
+	width: 214px;
+}
+
+.box img {
+	display: block;
+	width: 100%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.description{
+	margin-top: 10px;
+	margin-bottom: 5px;
 }
