@@ -3,7 +3,7 @@ class Pin < ActiveRecord::Base
 
 	belongs_to :user
     has_attached_file :image,
-    				  :s3_credentials => "#{Rails.root}/config/s3.yml",
+    				  #:s3_credentials => "#{Rails.root}/config/s3.yml",
     				  styles: { medium: "320x240>", small: "160x120>"}
 
     validates :description, presence: true
