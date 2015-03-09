@@ -26,4 +26,4 @@ doc/
 /public/system
 
 #ignore s3.yml file with s3 credentials
-/config/s3.yml
+s3.yml
